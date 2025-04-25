@@ -6,6 +6,7 @@
     <title>100 Days of Code Log by Job Kroon</title>
     <style>
         body {
+        /* Styling page */
             font-family: system-ui, -apple-system, BlinkMacSystemFont, Inter, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
             line-height: 1.6;
             margin: 20px;
@@ -69,6 +70,7 @@
 
         const logContainer = document.getElementById('log-container');
 
+        // for.Each entry in logEntries, create a div and append it to the logContainer
         logEntries.forEach(entry => {
             const logDiv = document.createElement('div');
             logDiv.classList.add('log-entry');
